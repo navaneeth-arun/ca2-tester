@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.home{
+    background-color: black;
+    background-image: url("./assets/homebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.end{
+    background-color: black;
+    background-image: url("./assets/endbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#logo{
+    color: white;
+    width: 260px;
+    height: auto;
+    padding-top: 40px;
+}
+
+#vik{
+    margin-left: -40px
+}
+
+#vik2{
+    margin-left: -7px;
+}
+ 
+#textl{
+    margin: -205px 0px 0px 245px;
+    font-size: 128px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+#input{
+    padding-top: 180px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+#myLabel{
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+}
+
+#myText{
+    border: 4px solid #EF3837;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+.start-btn{
+    text-align: center;
+	display: inline-block;
+	margin: 215px 0px 0px 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    background-color: #EF3837;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: white;
+    font-size: 30pt;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em white; 
+    cursor: pointer;
+}
+
+.start-btn:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}
+
+body {
+    margin: 0px;
+    background: #000;
+}
+
+.crcl {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: relative;
+    background-image: url("https://res.cloudinary.com/dvfeh6kup/image/upload/v1666245172/dp_1_sbv3p6.webp");
+    background-size: cover;
+    animation: movement;
+}
+
+@keyframes movement {
+    0% {
+        left: 0px;
+        top: 0px
+    }
+
+    5% {
+        left: 300px;
+        top: 200px
+    }
+
+    10% {
+        left: 600px;
+        top: 100px
+    }
+
+    15% {
+        left: 600px;
+        top: 600px
+    }
+
+    20% {
+        left: 300px;
+        top: 600px
+    }
+
+    25% {
+        left: 600px;
+        top: 400px
+    }
+
+    30% {
+        left: 100px;
+        top: 0px
+    }
+
+    35% {
+        left: 600px;
+        top: 200px
+    }
+
+    40% {
+        left: 100px;
+        top: 500px
+    }
+
+    45% {
+        left: 0px;
+        top: 600px
+    }
+
+    50% {
+        left: 600px;
+        top: 600px
+    }
+
+    55% {
+        left: 300px;
+        top: 200px
+    }
+
+    60% {
+        left: 600px;
+        top: 100px
+    }
+
+    65% {
+        left: 800px;
+        top: 600px
+    }
+
+    70% {
+        left: 300px;
+        top: 600px
+    }
+
+    75% {
+        left: 600px;
+        top: 400px
+    }
+
+    80% {
+        left: 100px;
+        top: 0px
+    }
+
+    85% {
+        left: 600px;
+        top: 200px
+    }
+
+    90% {
+        left: 100px;
+        top: 500px
+    }
+
+    95% {
+        left: 0px;
+        top: 600px
+    }
+
+    100% {
+        left: 600px;
+        top: 200px;
+    }
+}
+
+.details {
+    float: right;
+    width: 400px;
+    height: 100vh;
+    position: relative;
+    background-color: #EF3837;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.ground {
+    float: left;
+}
+
+.level {
+    display: flex;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.display_score {
+    margin-top: 25px;
+}
+
+button {
+    border-radius: 25px;
+    width: 8em;
+    height: 3em;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: #EF3837;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background:transparent;
+    color: black;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px black inset;
+    transition-duration: 0.5s;
+}
+
+#inst{
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+#end_score{
+    font-size: 50px;
+    margin: 100px 0px 0px 200px;
+}
+
+.scoree{
+    margin: 0px 0px 0px 30px;
+}
+
+.quote{
+    font-size: 25px;
+    margin: 165px 0px 0px 160px;
+}
+
+#newbut{
+    background-color: #EF3837;
+    color: white;
+    border-color: white;
+    margin: 90px 0px 0px 220px;
+}
+
+#hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0px 0px 345px;
+}
+
+.icon{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    *{
+        font-size: 25px;
+
+    }
+    .home{
+        background-color: black;
+        color: white;
+    }
+    #logo{
+        width: 80px;
+        height: auto;
+        margin: 0px 0px 0px 85px;
+    }
+    #textl{
+        margin: -155px 0px 0px 170px;
+    }
+    #vik{
+        margin-left: -28px;
+    }
+    #input{
+        margin: 80px 0px 0px 0px;
+    }
+    .start-btn{
+        margin: 250px 0px 0px 120px;
+    }
+    #inst{
+        display: none;
+    }
+    .details{
+        display: none;
+    }
+    .icon{
+        display: block;
+        margin: 0px 0px 0px -75px;
+    }
+    .end{
+        background-color: black;
+        color: white;
+    }
+    #end_score{
+        margin: 100px 0px 0px 155px;
+    }
+    .quote{
+        font-size: 10px;
+        margin: 225px 0px 0px 45px;
+    }
+    #newbut{
+        margin: 240px 0px 0px 100px;
+    }
+}

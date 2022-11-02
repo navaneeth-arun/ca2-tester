@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalvik</title>
+</head>
+
+<body>
+
+	<div id="bod" class="ground">
+		<div id="circle" onclick="count()"></div>
+	</div>
+
+    <div class="icon">
+        <div id="hamburger"></div>
+        <div id="hamburger"></div>
+        <div id="hamburger"></div>
+    </div>
+
+	<div class="details">
+
+        <br>
+
+		<h1>
+            <span style="color:black">KAL</span>
+            <span id="vik2" style="color:white">VIK</span>
+        </h1>
+
+        <br>
+
+		<h3>Click on a difficulty to start the game</h3>
+
+		<div class="level">
+			<button onclick="easy()">EASY</button>
+			<button onclick="medium()">MEDIUM</button>
+			<button onclick="hard()">HARD</button>
+		</div>
+
+        <br>
+
+        <div id="timer-box">
+            <span>Time: </span>
+            <span id="timer">00</span>
+            <span> sec</span>
+        </div>
+
+		<div class="display_score">
+			<h2>Score :</h2>
+			<h1 id="score" style="color:black">00</h1>
+		</div>
+
+        <br>
+
+        <div id="inst">
+            <li>Select your difficulty level.</li>
+            <li>Click on the moving logo on your screen to increase you score.</li>
+            <li>Avoid malicious objects other than the logo itself.</li>
+            <li>Increase difficulty level and try again!</li>
+            </div>
+
+            <br>
+		<button onclick="restart()">RESTART</button>
+        
+	</div>
+
+<script src="app.js"></script>
+</body>
+</html>
